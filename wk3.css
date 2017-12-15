@@ -1,0 +1,98 @@
+header#head {
+  background-color: #F4F4F4;
+  color: #E78244;
+  text-align: center;
+  margin-bottom: 0px; }
+
+header#head p {
+  font-size: 2em;
+  font-weight: 300; }
+
+header#head p span#bold {
+  font-weight: 500; }
+
+article#team {
+  margin-top: 0px;
+  background-color: #38A18C;
+  color: #2D4452;
+  text-align: center; }
+
+article#team h2 {
+  font-size: 2em;
+  font-weight: 500; }
+
+div#teampics {
+  color: #F4F4F4;
+  display: flex;
+  justify-content: space-around; }
+
+div.empl img {
+  width: 70%; }
+
+div.empl p {
+  font-weight: 500; }
+
+article#butt {
+  background-color: #F4F4F4;
+  color: #2D4452;
+  display: flex;
+  justify-content: center; }
+
+article#butt a {
+  background: linear-gradient(#FDFDFD, #C6C6C6);
+  padding: 10px 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #2D4452;
+  text-decoration: none; }
+
+article#chec {
+  background-color: #406A80;
+  color: #F4F4F4; }
+
+form#form1 {
+  font-size: 1.15em;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px; }
+
+form#form1 > div#left {
+  margin-right: 4%; }
+
+form#form1 > div#left > p {
+  margin: 7px 0px; }
+
+form#form1 > div#right > input {
+  margin: 3px 0px; }
+
+form#form1 > div#right > input[type="submit"] {
+  background: linear-gradient(#FDFDFD, #C6C6C6);
+  font-size: 1.15em;
+  margin: 0px 0px;
+  border-radius: 5px;
+  border: 1px solid #2D4452;
+  padding: 1px 20px; }
+
+form#form1 > div#right > input[type="text"] {
+  background-color: #F4F4F4;
+  border-radius: 5px;
+  padding: 5px 0px;
+  border: 1px solid #B5AFAF; }
+
+article#pric {
+  background-color: #F4F4F4;
+  color: #707375;
+  display: flex;
+  justify-content: center; }
+
+body {
+  width: 70%;
+  min-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #E5EAEE;
+  font-family: "Montserrat", Arial, sans-serif; }
+
+/*# sourceMappingURL=wk3.css.map */

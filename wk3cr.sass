@@ -1,0 +1,97 @@
+$crbackheaderfooter: #F4F4F4
+$crbackteam: #38A18C
+$crbackform: #406A80
+$crheader: #E78244
+$crteam: #2D4452
+$crprice: #707375
+$crbuttontop: #FDFDFD
+$crbuttonbot: #C6C6C6
+$crinputborder: #B5AFAF
+
+header#head 
+
+	background-color: $crbackheaderfooter
+	color: $crheader
+	text-align: center
+	margin-bottom: 0px
+
+header#head p
+	font-size: 2em
+	font-weight: 300
+
+header#head p span#bold 
+	font-weight: 500
+
+article#team
+	margin-top: 0px
+	background-color: $crbackteam
+	color: $crteam
+	text-align: center
+
+article#team h2 
+	font-size: 2em
+	font-weight: 500
+
+div#teampics
+	color: $crbackheaderfooter
+	display: flex
+	justify-content: space-around
+
+div.empl img 
+	width: 70%	
+
+div.empl p
+	font-weight: 500
+
+article#butt
+	background-color: $crbackheaderfooter
+	color: $crteam
+	display: flex
+	justify-content: center
+
+article#butt a
+	background: linear-gradient($crbuttontop, $crbuttonbot)
+	padding: 10px 10px
+	margin: 10px 0px
+	border-radius: 5px
+	border: 1px solid $crteam
+	text-decoration: none
+
+article#chec
+	background-color: $crbackform
+	color: $crbackheaderfooter
+
+form#form1
+	font-size: 1.15em
+	display: flex
+	justify-content: center
+	margin: 10px 0px
+
+form#form1 > div#left
+	margin-right: 4%
+
+form#form1 > div#left > p
+	margin: 7px 0px
+
+form#form1 > div#right > input
+	margin: 3px 0px
+
+form#form1 > div#right > input[type="submit"]
+	background: linear-gradient($crbuttontop, $crbuttonbot)
+	font-size: 1.15em
+	margin: 0px 0px
+	border-radius: 5px
+	border: 1px solid $crteam
+	padding: 1px 20px
+
+form#form1 > div#right > input[type="text"]
+	background-color: $crbackheaderfooter
+	border-radius: 5px
+	padding: 5px 0px
+	border: 1px solid $crinputborder
+
+article#pric
+	background-color: $crbackheaderfooter
+	color: $crprice
+	display: flex
+	justify-content: center
